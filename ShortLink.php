@@ -1,6 +1,6 @@
 <?php
-define('API_KEY', 'TOKEN');
-$admin = "ADMIN";
+define('API_KEY', '210148036:AAHNgcyHcOV04AwTO6miAiS4-Sj2D33sy9c');
+$admin = "MOSBland";
 function mute($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
